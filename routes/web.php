@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/home', 'homeController@get_home');
+Route::get('/kayit', 'kayitController@get_kayit');
