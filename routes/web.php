@@ -23,3 +23,4 @@ Route::get('/hakkımızda', 'hakkımızdaController@get_hakkımızda');
 Route::get('/iletisim', 'iletisimController@get_iletisim');
 Route::get('/yardım', 'yardımController@get_yardım');
 Route::get('/restart', 'restartController@get_restart');
+Route::get('/giris', 'girisController@get_giris');
