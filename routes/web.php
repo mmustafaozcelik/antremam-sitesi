@@ -19,3 +19,4 @@ Route::get('/', function () {
 Route::get('/home', 'homeController@get_home');
 Route::get('/kayit', 'kayitController@get_kayit');
 Route::get('/hesaplama', 'hesaplamaController@get_hesaplama');
+Route::get('/hakkımızda', 'hakkımızdaController@get_hakkımızda');
